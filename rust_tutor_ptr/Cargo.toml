@@ -1,0 +1,36 @@
+[package]
+name = "rust_tutor_ptr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+
+# 智能指针教程例子
+[[bin]]
+name = "example_01_box"
+path = "src/examples/example_01_box.rs"
+
+[[bin]]
+name = "example_02_rc"
+path = "src/examples/example_02_rc.rs"
+
+[[bin]]
+name = "example_03_arc"
+path = "src/examples/example_03_arc.rs"
+
+[[bin]]
+name = "example_04_refcell"
+path = "src/examples/example_04_refcell.rs"
+
+[[bin]]
+name = "example_05_weak"
+path = "src/examples/example_05_weak.rs"
+
+[[bin]]
+name = "example_06_cow"
+path = "src/examples/example_06_cow.rs"
+
+[[bin]]
+name = "example_07_custom_smart_ptr"
+path = "src/examples/example_07_custom_smart_ptr.rs"
