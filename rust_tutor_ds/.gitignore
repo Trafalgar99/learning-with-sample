@@ -1,0 +1,36 @@
+# Rust编译产物
+/target/
+**/*.rs.bk
+
+# Cargo.lock文件（对于库项目通常不提交）
+# 如果这是一个应用程序项目，可以保留Cargo.lock
+Cargo.lock
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# 临时文件
+*~
+.#*
+#*#
+
+# 可执行文件（防止误提交单独编译的文件）
+*.exe
+01_vector
+02_basic_types
+03_string
+04_array_tuple
+05_struct
+06_enum
+07_hashmap
+08_hashset 

@@ -1,0 +1,49 @@
+[package]
+name = "rust-data-structures-tutorial"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Rust基础数据类型和数据结构教程 - 包含详细的中文注释和实际应用示例"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/your-username/rust-data-structures-tutorial"
+keywords = ["rust", "tutorial", "data-structures", "chinese", "教程"]
+categories = ["educational"]
+
+[dependencies]
+# 这里可以添加项目需要的依赖
+# 目前教程使用的都是标准库，所以暂时没有额外依赖
+
+[dev-dependencies]
+# 开发时使用的依赖，例如测试工具等
+
+[[example]]
+name = "vector"
+path = "examples/01_vector.rs"
+
+[[example]]
+name = "basic_types"
+path = "examples/02_basic_types.rs"
+
+[[example]]
+name = "string"
+path = "examples/03_string.rs"
+
+[[example]]
+name = "array_tuple"
+path = "examples/04_array_tuple.rs"
+
+[[example]]
+name = "struct"
+path = "examples/05_struct.rs"
+
+[[example]]
+name = "enum"
+path = "examples/06_enum.rs"
+
+[[example]]
+name = "hashmap"
+path = "examples/07_hashmap.rs"
+
+[[example]]
+name = "hashset"
+path = "examples/08_hashset.rs" 
